@@ -9,7 +9,7 @@ def oura_data(p_message):
         'end_date': p_message
     }
     headers = { 
-        'Authorization': 'Bearer VDUGYYJGJHTVZ4J26E6KPUUYOGL5YKC3' 
+        'Authorization': 'Bearer Token' 
     }
     response = requests.request('GET', url, headers=headers, params=params) 
     response2 = requests.request('GET', url2, headers=headers, params=params) 
